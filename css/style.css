@@ -1,0 +1,65 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+#buttons {
+    padding-top: 30px;
+}
+
+.border {
+    border-style: groove;
+    border-width: medium;
+}
+
+body {
+    background-color: coral;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+
+header {
+    background-color: mediumaquamarine;
+    position: fixed;
+    top:0;
+    height:80px;
+    width:100%;
+    border-top: 2px dashed #046ca3;
+    border-bottom: 1px dashed #046ca3;
+    box-shadow: inset 0 -1px 0 0 #046ca3, inset 0 1px 0 0 #046ca3, 0 1px 0 0 #046ca3, 0 -1px 0 0 #046ca3;
+    margin-bottom: 1px;
+    z-index:9999;
+}
+
+
+#content {
+    background-color: aliceblue;
+    height: 100vh;
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: deepskyblue;
+    border-top: 2px dashed #046ca3;
+    border-bottom: 1px dashed #046ca3;
+    box-shadow: inset 0 -1px 0 0 #046ca3, inset 0 1px 0 0 #046ca3, 0 1px 0 0 #046ca3, 0 -1px 0 0 #046ca3;
+    margin-bottom: 1px;
+}
+
+* {
+    font-family: 'Righteous', cursive;
+}
+
+h2:before {
+    display: block;
+    content: " ";
+    margin-top: -80px;
+    height: 80px;
+    visibility: hidden;
+}
